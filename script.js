@@ -53,7 +53,7 @@ function loadEvent() {
     const root = document.getElementById("root");
     const list1 = generateArray(720);
     const list = numberConvert(list1);
-    numberConvert(list);
+
 
     if (list[0] !== "error") {
         for (const item of list) {
